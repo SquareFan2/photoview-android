@@ -70,10 +70,6 @@ public final class io/getstream/photoview/sample/LauncherActivity$Companion {
 	public final fun getOptions ()[Ljava/lang/String;
 }
 
-public final class io/getstream/photoview/sample/PicassoSampleActivity : androidx/appcompat/app/AppCompatActivity {
-	public fun <init> ()V
-}
-
 public final class io/getstream/photoview/sample/RotationSampleActivity : androidx/appcompat/app/AppCompatActivity {
 	public fun <init> ()V
 	public fun onCreate (Landroid/os/Bundle;)V
