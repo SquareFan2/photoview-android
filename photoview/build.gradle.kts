@@ -24,7 +24,6 @@ mavenPublishing {
   }
 }
 
-
 android {
   compileSdk = Configuration.compileSdk
   namespace = "io.getstream.photoview"
