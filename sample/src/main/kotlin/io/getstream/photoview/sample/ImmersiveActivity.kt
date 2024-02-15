@@ -23,7 +23,7 @@ import android.view.View
 import android.view.WindowInsetsController
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import com.squareup.picasso.Picasso
+import com.bumptech.glide.Glide
 import io.getstream.photoview.sample.databinding.ActivityImmersiveBinding
 
 /**
@@ -37,7 +37,7 @@ class ImmersiveActivity : AppCompatActivity() {
     setContentView(binding.root)
 
     val photoView = binding.photoView
-    Picasso.with(this)
+    Glide.with(this)
       .load(
         "https://images.unsplash.com/photo-1577643816920-65b43ba99fba?ixlib=rb-1.2.1&" +
           "auto=format&fit=crop&w=3300&q=80",

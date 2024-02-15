@@ -65,11 +65,10 @@ class LauncherActivity : AppCompatActivity() {
           0 -> SimpleSampleActivity::class.java
           1 -> ViewPagerActivity::class.java
           2 -> RotationSampleActivity::class.java
-          3 -> PicassoSampleActivity::class.java
-          4 -> CoilSampleActivity::class.java
-          5 -> GlideSampleActivity::class.java
-          6 -> ActivityTransitionActivity::class.java
-          7 -> ImmersiveActivity::class.java
+          3 -> CoilSampleActivity::class.java
+          4 -> GlideSampleActivity::class.java
+          5 -> ActivityTransitionActivity::class.java
+          6 -> ImmersiveActivity::class.java
           else -> SimpleSampleActivity::class.java
         }
         val context = holder.itemView.context

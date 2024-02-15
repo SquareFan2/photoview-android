@@ -51,7 +51,6 @@ tasks.withType(JavaCompile::class.java).configureEach {
 dependencies {
   implementation(libs.androidx.material)
 
-  implementation(libs.picasso)
   implementation(libs.coil)
   implementation(libs.glide)
 
