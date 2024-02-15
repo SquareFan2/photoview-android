@@ -1,0 +1,194 @@
+public final class io/getstream/photoview/sample/ActivityTransitionActivity : androidx/appcompat/app/AppCompatActivity {
+	public fun <init> ()V
+	public fun onCreate (Landroid/os/Bundle;)V
+}
+
+public final class io/getstream/photoview/sample/ActivityTransitionToActivity : androidx/appcompat/app/AppCompatActivity {
+	public fun <init> ()V
+}
+
+public final class io/getstream/photoview/sample/BuildConfig {
+	public static final field APPLICATION_ID Ljava/lang/String;
+	public static final field BUILD_TYPE Ljava/lang/String;
+	public static final field DEBUG Z
+	public static final field VERSION_CODE I
+	public static final field VERSION_NAME Ljava/lang/String;
+	public fun <init> ()V
+}
+
+public final class io/getstream/photoview/sample/CoilSampleActivity : androidx/appcompat/app/AppCompatActivity {
+	public fun <init> ()V
+}
+
+public final class io/getstream/photoview/sample/GlideSampleActivity : androidx/appcompat/app/AppCompatActivity {
+	public fun <init> ()V
+}
+
+public final class io/getstream/photoview/sample/HackyDrawerLayout : androidx/drawerlayout/widget/DrawerLayout {
+	public fun <init> (Landroid/content/Context;)V
+	public fun onInterceptTouchEvent (Landroid/view/MotionEvent;)Z
+}
+
+public final class io/getstream/photoview/sample/HackyViewPager : androidx/viewpager/widget/ViewPager {
+	public fun <init> (Landroid/content/Context;)V
+	public fun <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+	public fun onInterceptTouchEvent (Landroid/view/MotionEvent;)Z
+}
+
+public final class io/getstream/photoview/sample/ImageAdapter : androidx/recyclerview/widget/RecyclerView$Adapter {
+	public fun <init> (Lio/getstream/photoview/sample/ImageAdapter$Listener;)V
+	public fun getItemCount ()I
+	public synthetic fun onBindViewHolder (Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
+	public fun onBindViewHolder (Lio/getstream/photoview/sample/ImageViewHolder;I)V
+	public synthetic fun onCreateViewHolder (Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+	public fun onCreateViewHolder (Landroid/view/ViewGroup;I)Lio/getstream/photoview/sample/ImageViewHolder;
+}
+
+public abstract interface class io/getstream/photoview/sample/ImageAdapter$Listener {
+	public abstract fun onImageClicked (Landroid/view/View;)V
+}
+
+public final class io/getstream/photoview/sample/ImageViewHolder : androidx/recyclerview/widget/RecyclerView$ViewHolder {
+	public static final field Companion Lio/getstream/photoview/sample/ImageViewHolder$Companion;
+	public fun <init> (Lio/getstream/photoview/sample/databinding/ItemImageBinding;)V
+}
+
+public final class io/getstream/photoview/sample/ImageViewHolder$Companion {
+	public final fun inflate (Landroid/view/ViewGroup;)Lio/getstream/photoview/sample/ImageViewHolder;
+}
+
+public final class io/getstream/photoview/sample/ImmersiveActivity : androidx/appcompat/app/AppCompatActivity {
+	public fun <init> ()V
+}
+
+public final class io/getstream/photoview/sample/LauncherActivity : androidx/appcompat/app/AppCompatActivity {
+	public static final field Companion Lio/getstream/photoview/sample/LauncherActivity$Companion;
+	public fun <init> ()V
+}
+
+public final class io/getstream/photoview/sample/LauncherActivity$Companion {
+	public final fun getOptions ()[Ljava/lang/String;
+}
+
+public final class io/getstream/photoview/sample/PicassoSampleActivity : androidx/appcompat/app/AppCompatActivity {
+	public fun <init> ()V
+}
+
+public final class io/getstream/photoview/sample/RotationSampleActivity : androidx/appcompat/app/AppCompatActivity {
+	public fun <init> ()V
+	public fun onCreate (Landroid/os/Bundle;)V
+}
+
+public final class io/getstream/photoview/sample/SimpleSampleActivity : androidx/appcompat/app/AppCompatActivity {
+	public static final field Companion Lio/getstream/photoview/sample/SimpleSampleActivity$Companion;
+	public static final field FLING_LOG_STRING Ljava/lang/String;
+	public static final field PHOTO_TAP_TOAST_STRING Ljava/lang/String;
+	public static final field SCALE_TOAST_STRING Ljava/lang/String;
+	public fun <init> ()V
+	public fun onCreate (Landroid/os/Bundle;)V
+}
+
+public final class io/getstream/photoview/sample/SimpleSampleActivity$Companion {
+}
+
+public final class io/getstream/photoview/sample/ViewPagerActivity : androidx/appcompat/app/AppCompatActivity {
+	public fun <init> ()V
+	public fun onCreate (Landroid/os/Bundle;)V
+}
+
+public final class io/getstream/photoview/sample/databinding/ActivityImmersiveBinding : androidx/viewbinding/ViewBinding {
+	public final field photoView Lio/getstream/photoview/PhotoView;
+	public final field root Landroid/widget/FrameLayout;
+	public static fun bind (Landroid/view/View;)Lio/getstream/photoview/sample/databinding/ActivityImmersiveBinding;
+	public synthetic fun getRoot ()Landroid/view/View;
+	public fun getRoot ()Landroid/widget/FrameLayout;
+	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ActivityImmersiveBinding;
+	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ActivityImmersiveBinding;
+}
+
+public final class io/getstream/photoview/sample/databinding/ActivityLauncherBinding : androidx/viewbinding/ViewBinding {
+	public final field list Landroidx/recyclerview/widget/RecyclerView;
+	public final field toolbar Landroidx/appcompat/widget/Toolbar;
+	public static fun bind (Landroid/view/View;)Lio/getstream/photoview/sample/databinding/ActivityLauncherBinding;
+	public synthetic fun getRoot ()Landroid/view/View;
+	public fun getRoot ()Landroid/widget/LinearLayout;
+	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ActivityLauncherBinding;
+	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ActivityLauncherBinding;
+}
+
+public final class io/getstream/photoview/sample/databinding/ActivityRotationSampleBinding : androidx/viewbinding/ViewBinding {
+	public final field appbar Lcom/google/android/material/appbar/AppBarLayout;
+	public final field ivPhoto Lio/getstream/photoview/PhotoView;
+	public final field toolbar Landroidx/appcompat/widget/Toolbar;
+	public static fun bind (Landroid/view/View;)Lio/getstream/photoview/sample/databinding/ActivityRotationSampleBinding;
+	public synthetic fun getRoot ()Landroid/view/View;
+	public fun getRoot ()Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ActivityRotationSampleBinding;
+	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ActivityRotationSampleBinding;
+}
+
+public final class io/getstream/photoview/sample/databinding/ActivitySimpleBinding : androidx/viewbinding/ViewBinding {
+	public final field ivPhoto Lio/getstream/photoview/PhotoView;
+	public static fun bind (Landroid/view/View;)Lio/getstream/photoview/sample/databinding/ActivitySimpleBinding;
+	public synthetic fun getRoot ()Landroid/view/View;
+	public fun getRoot ()Lio/getstream/photoview/PhotoView;
+	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ActivitySimpleBinding;
+	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ActivitySimpleBinding;
+}
+
+public final class io/getstream/photoview/sample/databinding/ActivitySimpleSampleBinding : androidx/viewbinding/ViewBinding {
+	public final field appbar Lcom/google/android/material/appbar/AppBarLayout;
+	public final field ivPhoto Lio/getstream/photoview/PhotoView;
+	public final field toolbar Landroidx/appcompat/widget/Toolbar;
+	public final field tvCurrentMatrix Landroid/widget/TextView;
+	public static fun bind (Landroid/view/View;)Lio/getstream/photoview/sample/databinding/ActivitySimpleSampleBinding;
+	public synthetic fun getRoot ()Landroid/view/View;
+	public fun getRoot ()Landroid/widget/FrameLayout;
+	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ActivitySimpleSampleBinding;
+	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ActivitySimpleSampleBinding;
+}
+
+public final class io/getstream/photoview/sample/databinding/ActivityTransitionBinding : androidx/viewbinding/ViewBinding {
+	public final field list Landroidx/recyclerview/widget/RecyclerView;
+	public static fun bind (Landroid/view/View;)Lio/getstream/photoview/sample/databinding/ActivityTransitionBinding;
+	public synthetic fun getRoot ()Landroid/view/View;
+	public fun getRoot ()Landroidx/recyclerview/widget/RecyclerView;
+	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ActivityTransitionBinding;
+	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ActivityTransitionBinding;
+}
+
+public final class io/getstream/photoview/sample/databinding/ActivityTransitionToBinding : androidx/viewbinding/ViewBinding {
+	public final field ivPhoto Lio/getstream/photoview/PhotoView;
+	public static fun bind (Landroid/view/View;)Lio/getstream/photoview/sample/databinding/ActivityTransitionToBinding;
+	public synthetic fun getRoot ()Landroid/view/View;
+	public fun getRoot ()Lio/getstream/photoview/PhotoView;
+	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ActivityTransitionToBinding;
+	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ActivityTransitionToBinding;
+}
+
+public final class io/getstream/photoview/sample/databinding/ActivityViewPagerBinding : androidx/viewbinding/ViewBinding {
+	public final field viewPager Lio/getstream/photoview/sample/HackyViewPager;
+	public static fun bind (Landroid/view/View;)Lio/getstream/photoview/sample/databinding/ActivityViewPagerBinding;
+	public synthetic fun getRoot ()Landroid/view/View;
+	public fun getRoot ()Lio/getstream/photoview/sample/HackyViewPager;
+	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ActivityViewPagerBinding;
+	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ActivityViewPagerBinding;
+}
+
+public final class io/getstream/photoview/sample/databinding/ItemImageBinding : androidx/viewbinding/ViewBinding {
+	public static fun bind (Landroid/view/View;)Lio/getstream/photoview/sample/databinding/ItemImageBinding;
+	public synthetic fun getRoot ()Landroid/view/View;
+	public fun getRoot ()Landroid/widget/ImageView;
+	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ItemImageBinding;
+	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ItemImageBinding;
+}
+
+public final class io/getstream/photoview/sample/databinding/ItemSampleBinding : androidx/viewbinding/ViewBinding {
+	public final field title Landroid/widget/TextView;
+	public static fun bind (Landroid/view/View;)Lio/getstream/photoview/sample/databinding/ItemSampleBinding;
+	public synthetic fun getRoot ()Landroid/view/View;
+	public fun getRoot ()Landroid/widget/FrameLayout;
+	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ItemSampleBinding;
+	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ItemSampleBinding;
+}
+

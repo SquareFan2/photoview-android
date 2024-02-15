@@ -1,6 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2024 Stream.IO, Inc.
+    Copyright 2011, 2012 Chris Banes.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.github.chrisbanes.photoview.sample">
+    package="io.getstream.photoview.sample">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,29 +28,27 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <profileable
+            android:shell="true"
+            tools:targetApi="29" />
 
-        <activity android:name=".LauncherActivity">
+        <activity
+            android:name=".LauncherActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".SimpleSampleActivity" />
-
         <activity android:name=".ViewPagerActivity" />
-
         <activity android:name=".RotationSampleActivity" />
-
         <activity android:name=".PicassoSampleActivity" />
-
         <activity android:name=".CoilSampleActivity" />
-
+        <activity android:name=".GlideSampleActivity" />
         <activity android:name=".ActivityTransitionActivity" />
-
         <activity android:name=".ActivityTransitionToActivity" />
-
         <activity android:name=".ImmersiveActivity" />
     </application>
 

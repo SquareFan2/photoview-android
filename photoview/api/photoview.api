@@ -1,0 +1,73 @@
+public abstract interface class io/getstream/photoview/OnMatrixChangedListener {
+	public abstract fun onMatrixChanged (Landroid/graphics/RectF;)V
+}
+
+public abstract interface class io/getstream/photoview/OnOutsidePhotoTapListener {
+	public abstract fun onOutsidePhotoTap (Landroid/widget/ImageView;)V
+}
+
+public abstract interface class io/getstream/photoview/OnPhotoTapListener {
+	public abstract fun onPhotoTap (Landroid/widget/ImageView;FF)V
+}
+
+public abstract interface class io/getstream/photoview/OnScaleChangedListener {
+	public abstract fun onScaleChange (FFF)V
+}
+
+public abstract interface class io/getstream/photoview/OnSingleFlingListener {
+	public abstract fun onFling (Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
+}
+
+public abstract interface class io/getstream/photoview/OnViewDragListener {
+	public abstract fun onDrag (FF)V
+}
+
+public abstract interface class io/getstream/photoview/OnViewTapListener {
+	public abstract fun onViewTap (Landroid/view/View;FF)V
+}
+
+public final class io/getstream/photoview/PhotoView : androidx/appcompat/widget/AppCompatImageView {
+	public fun <init> (Landroid/content/Context;)V
+	public fun <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+	public fun <init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V
+	public synthetic fun <init> (Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun getDisplayMatrix (Landroid/graphics/Matrix;)V
+	public final fun getDisplayRect ()Landroid/graphics/RectF;
+	public fun getImageMatrix ()Landroid/graphics/Matrix;
+	public final fun getMaximumScale ()F
+	public final fun getMediumScale ()F
+	public final fun getMinimumScale ()F
+	public final fun getScale ()F
+	public fun getScaleType ()Landroid/widget/ImageView$ScaleType;
+	public final fun getSuppMatrix (Landroid/graphics/Matrix;)V
+	public final fun isZoomable ()Z
+	public final fun setAllowParentInterceptOnEdge (Z)V
+	public final fun setDisplayMatrix (Landroid/graphics/Matrix;)Z
+	public fun setImageDrawable (Landroid/graphics/drawable/Drawable;)V
+	public fun setImageResource (I)V
+	public fun setImageURI (Landroid/net/Uri;)V
+	public final fun setMaximumScale (F)V
+	public final fun setMediumScale (F)V
+	public final fun setMinimumScale (F)V
+	public fun setOnClickListener (Landroid/view/View$OnClickListener;)V
+	public final fun setOnDoubleTapListener (Landroid/view/GestureDetector$OnDoubleTapListener;)V
+	public fun setOnLongClickListener (Landroid/view/View$OnLongClickListener;)V
+	public final fun setOnMatrixChangeListener (Lio/getstream/photoview/OnMatrixChangedListener;)V
+	public final fun setOnOutsidePhotoTapListener (Lio/getstream/photoview/OnOutsidePhotoTapListener;)V
+	public final fun setOnPhotoTapListener (Lio/getstream/photoview/OnPhotoTapListener;)V
+	public final fun setOnScaleChangeListener (Lio/getstream/photoview/OnScaleChangedListener;)V
+	public final fun setOnSingleFlingListener (Lio/getstream/photoview/OnSingleFlingListener;)V
+	public final fun setOnViewDragListener (Lio/getstream/photoview/OnViewDragListener;)V
+	public final fun setOnViewTapListener (Lio/getstream/photoview/OnViewTapListener;)V
+	public final fun setRotationBy (F)V
+	public final fun setRotationTo (F)V
+	public final fun setScale (F)V
+	public final fun setScale (FFFZ)V
+	public final fun setScale (FZ)V
+	public final fun setScaleLevels (FFF)V
+	public fun setScaleType (Landroid/widget/ImageView$ScaleType;)V
+	public final fun setSuppMatrix (Landroid/graphics/Matrix;)Z
+	public final fun setZoomTransitionDuration (I)V
+	public final fun setZoomable (Z)V
+}
+
