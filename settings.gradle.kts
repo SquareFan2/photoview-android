@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 include(":sample")
 include(":photoview")
+include(":photoview-dialog")
 include(":benchmark")
