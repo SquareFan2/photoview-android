@@ -69,10 +69,9 @@ Exploring the [sample](https://github.com/GetStream/photoview-android/tree/main/
 
 ## PhotoView Dialog
 
-[![Maven Central](https://img.shields.io/maven-central/v/io.getstream/photoview.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/io.getstream/photoview)
-
 You can implement a dialog that displays a list of PhotoView images with the `photoview-dialog` package. First, you can simply add the dependency below:
 
+[![Maven Central](https://img.shields.io/maven-central/v/io.getstream/photoview.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/io.getstream/photoview)
 
 ```kotlin
 dependencies {
