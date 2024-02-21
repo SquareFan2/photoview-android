@@ -17,6 +17,7 @@
 <p align="center">
 <img src="preview/preview0.gif" width="320"/>
 <img src="preview/preview1.gif" width="320"/>
+<img src="preview/preview2.gif" width="298"/>
 </p>
 
 ## Download
@@ -28,7 +29,7 @@ Add the dependency below to your **module**'s `build.gradle` file:
 
 ```gradle
 dependencies {
-    implementation("io.getstream:photoview:1.0.0")
+    implementation("io.getstream:photoview:1.0.1")
 }
 ```
 
@@ -66,6 +67,41 @@ Glide.with(this)
 
 Exploring the [sample](https://github.com/GetStream/photoview-android/tree/main/sample) directory reveals a variety of practical examples, including integration with ViewPager, using PhotoView with shared transition elements, utilizing third-party image libraries (such as Coil, Glide, and Picasso), among others.
 
+## PhotoView Dialog
+
+[![Maven Central](https://img.shields.io/maven-central/v/io.getstream/photoview.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/io.getstream/photoview)
+
+You can implement a dialog that displays a list of PhotoView images with the `photoview-dialog` package. First, you can simply add the dependency below:
+
+
+```kotlin
+dependencies {
+    implementation("io.getstream:photoview-dialog:$version")
+}
+````
+
+Now, you can display the PhotoView image dialog by using the `PhotoViewDialog` component like the code below:
+
+```kotlin
+val imageUrls = listOf(
+  ..,
+)
+
+val button = binding.button
+button.setOnClickListener {
+  PhotoViewDialog.Builder(context = this, images = imageUrls) { imageView, url ->
+    Glide.with(this)
+      .load(url)
+      .into(imageView)
+  }.build().show()
+}
+```
+
+Then, you'll see the result below:
+
+![photoview-dialog](preview/preview2.gif)
+
+
 ## Supported Features
 
 - **Effortless Zooming**: Enables zooming capabilities through multi-touch gestures and double-tapping.
@@ -75,6 +111,7 @@ Exploring the [sample](https://github.com/GetStream/photoview-android/tree/main/
 - **User Tap Notifications**: Notifies the application when the user interacts with the Photo, facilitating responsive UI actions.
 
 ## Find this repository useful? :heart:
+
 Support it by joining __[stargazers](https://github.com/skydoves/FlexibleBottomSheet/stargazers)__ for this repository. :star: <br>
 Also, __[follow me](https://github.com/skydoves)__ on GitHub for my next creations! 🤩
 
