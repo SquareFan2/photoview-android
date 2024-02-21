@@ -46,7 +46,7 @@ public class PhotoView @JvmOverloads constructor(
    *
    * @return the attacher.
    */
-  private lateinit var attacher: PhotoViewAttacher
+  private lateinit var attacher: PhotoViewAttacher // Don't remove lateinit
   private var pendingScaleType: ScaleType? = null
 
   init {
@@ -76,7 +76,7 @@ public class PhotoView @JvmOverloads constructor(
   }
 
   override fun setScaleType(scaleType: ScaleType) {
-    if (drawable == null) {
+    if (drawable == null || !::attacher.isInitialized) {
       pendingScaleType = scaleType
     } else {
       attacher.scaleType = scaleType
