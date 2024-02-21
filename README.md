@@ -107,7 +107,7 @@ button.setOnClickListener {
 
 Then, you'll see the result below:
 
-![photoview-dialog](preview/preview2.gif)
+<img src="preview/preview2.gif" width="340"/>
 
 
 ## Supported Features
