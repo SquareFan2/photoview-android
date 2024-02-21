@@ -111,7 +111,6 @@ class LauncherActivity : AppCompatActivity() {
       "Simple Sample",
       "ViewPager Sample",
       "Rotation Sample",
-      "Picasso Sample",
       "Coil Sample",
       "Glide Sample",
       "Activity Transition Sample",
