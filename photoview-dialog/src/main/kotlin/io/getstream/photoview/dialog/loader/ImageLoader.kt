@@ -28,5 +28,5 @@ public fun interface ImageLoader<T> {
    * @param imageView an [ImageView] object where the image should be loaded
    * @param image     image data from which image should be loaded
    */
-  public fun loadImage(imageView: ImageView?, image: T)
+  public fun loadImage(imageView: ImageView, image: T)
 }

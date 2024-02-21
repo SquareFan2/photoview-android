@@ -70,6 +70,10 @@ public final class io/getstream/photoview/sample/LauncherActivity$Companion {
 	public final fun getOptions ()[Ljava/lang/String;
 }
 
+public final class io/getstream/photoview/sample/PhotoViewDialogActivity : androidx/appcompat/app/AppCompatActivity {
+	public fun <init> ()V
+}
+
 public final class io/getstream/photoview/sample/RotationSampleActivity : androidx/appcompat/app/AppCompatActivity {
 	public fun <init> ()V
 	public fun onCreate (Landroid/os/Bundle;)V
@@ -110,6 +114,16 @@ public final class io/getstream/photoview/sample/databinding/ActivityLauncherBin
 	public fun getRoot ()Landroid/widget/LinearLayout;
 	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ActivityLauncherBinding;
 	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ActivityLauncherBinding;
+}
+
+public final class io/getstream/photoview/sample/databinding/ActivityPhotoviewDialogBinding : androidx/viewbinding/ViewBinding {
+	public final field button Landroid/widget/Button;
+	public final field ivPhoto Landroidx/constraintlayout/widget/ConstraintLayout;
+	public static fun bind (Landroid/view/View;)Lio/getstream/photoview/sample/databinding/ActivityPhotoviewDialogBinding;
+	public synthetic fun getRoot ()Landroid/view/View;
+	public fun getRoot ()Landroidx/constraintlayout/widget/ConstraintLayout;
+	public static fun inflate (Landroid/view/LayoutInflater;)Lio/getstream/photoview/sample/databinding/ActivityPhotoviewDialogBinding;
+	public static fun inflate (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/getstream/photoview/sample/databinding/ActivityPhotoviewDialogBinding;
 }
 
 public final class io/getstream/photoview/sample/databinding/ActivityRotationSampleBinding : androidx/viewbinding/ViewBinding {

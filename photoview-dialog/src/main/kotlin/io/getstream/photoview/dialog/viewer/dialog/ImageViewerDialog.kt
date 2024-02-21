@@ -35,7 +35,7 @@ internal class ImageViewerDialog<T>(
 
     private val dialogStyle: Int
         get() = if (builderData.shouldStatusBarHide)
-            R.style.ImageViewerqwDialog_NoStatusBar
+            R.style.ImageViewerDialog_NoStatusBar
         else
             R.style.ImageViewerDialog_Default
 

@@ -1,0 +1,79 @@
+public final class io/getstream/photoview/dialog/PhotoViewDialog {
+	public fun <init> (Landroid/content/Context;Lio/getstream/photoview/dialog/viewer/builder/BuilderData;)V
+	public final fun close ()V
+	public final fun currentPosition ()I
+	public final fun dismiss ()V
+	public final fun setCurrentPosition (I)I
+	public final fun show ()V
+	public final fun show (Z)V
+	public static synthetic fun show$default (Lio/getstream/photoview/dialog/PhotoViewDialog;ZILjava/lang/Object;)V
+	public final fun updateImages (Ljava/util/List;)V
+	public final fun updateImages ([Ljava/lang/Object;)V
+	public final fun updateTransitionImage (Landroid/widget/ImageView;)V
+}
+
+public final class io/getstream/photoview/dialog/PhotoViewDialog$Builder {
+	public fun <init> (Landroid/content/Context;Ljava/util/List;Lio/getstream/photoview/dialog/loader/ImageLoader;)V
+	public fun <init> (Landroid/content/Context;[Ljava/lang/Object;Lio/getstream/photoview/dialog/loader/ImageLoader;)V
+	public final fun allowSwipeToDismiss (Z)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun allowZooming (Z)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun build ()Lio/getstream/photoview/dialog/PhotoViewDialog;
+	public final fun show ()Lio/getstream/photoview/dialog/PhotoViewDialog;
+	public final fun show (Z)Lio/getstream/photoview/dialog/PhotoViewDialog;
+	public static synthetic fun show$default (Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;ZILjava/lang/Object;)Lio/getstream/photoview/dialog/PhotoViewDialog;
+	public final fun withBackgroundColor (I)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withBackgroundColorResource (I)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withContainerPadding (I)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withContainerPadding (IIII)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withContainerPaddingPixels (I)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withContainerPaddingPixels (IIII)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withDismissListener (Lio/getstream/photoview/dialog/listeners/OnDismissListener;)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withHiddenStatusBar (Z)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withImageChangeListener (Lio/getstream/photoview/dialog/listeners/OnImageChangeListener;)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withImageMarginPixels (I)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withImagesMargin (I)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withOverlayView (Landroid/view/View;)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withStartPosition (I)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+	public final fun withTransitionFrom (Landroid/widget/ImageView;)Lio/getstream/photoview/dialog/PhotoViewDialog$Builder;
+}
+
+public abstract interface class io/getstream/photoview/dialog/listeners/OnDismissListener {
+	public abstract fun onDismiss ()V
+}
+
+public abstract interface class io/getstream/photoview/dialog/listeners/OnImageChangeListener {
+	public abstract fun onImageChange (I)V
+}
+
+public abstract interface class io/getstream/photoview/dialog/loader/ImageLoader {
+	public abstract fun loadImage (Landroid/widget/ImageView;Ljava/lang/Object;)V
+}
+
+public final class io/getstream/photoview/dialog/viewer/builder/BuilderData {
+	public fun <init> (Ljava/util/List;Lio/getstream/photoview/dialog/loader/ImageLoader;)V
+	public final fun getBackgroundColor ()I
+	public final fun getContainerPaddingPixels ()[I
+	public final fun getImageChangeListener ()Lio/getstream/photoview/dialog/listeners/OnImageChangeListener;
+	public final fun getImageLoader ()Lio/getstream/photoview/dialog/loader/ImageLoader;
+	public final fun getImageMarginPixels ()I
+	public final fun getImages ()Ljava/util/List;
+	public final fun getOnDismissListener ()Lio/getstream/photoview/dialog/listeners/OnDismissListener;
+	public final fun getOverlayView ()Landroid/view/View;
+	public final fun getShouldStatusBarHide ()Z
+	public final fun getStartPosition ()I
+	public final fun getTransitionView ()Landroid/widget/ImageView;
+	public final fun isSwipeToDismissAllowed ()Z
+	public final fun isZoomingAllowed ()Z
+	public final fun setBackgroundColor (I)V
+	public final fun setContainerPaddingPixels ([I)V
+	public final fun setImageChangeListener (Lio/getstream/photoview/dialog/listeners/OnImageChangeListener;)V
+	public final fun setImageMarginPixels (I)V
+	public final fun setOnDismissListener (Lio/getstream/photoview/dialog/listeners/OnDismissListener;)V
+	public final fun setOverlayView (Landroid/view/View;)V
+	public final fun setShouldStatusBarHide (Z)V
+	public final fun setStartPosition (I)V
+	public final fun setSwipeToDismissAllowed (Z)V
+	public final fun setTransitionView (Landroid/widget/ImageView;)V
+	public final fun setZoomingAllowed (Z)V
+}
+

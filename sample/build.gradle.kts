@@ -55,6 +55,7 @@ dependencies {
   implementation(libs.glide)
 
   implementation(project(":photoview"))
+  implementation(project(":photoview-dialog"))
 
   baselineProfile(project(":benchmark"))
 }

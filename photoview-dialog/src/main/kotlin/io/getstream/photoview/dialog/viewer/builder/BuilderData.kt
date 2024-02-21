@@ -23,19 +23,19 @@ import io.getstream.photoview.dialog.listeners.OnDismissListener
 import io.getstream.photoview.dialog.listeners.OnImageChangeListener
 import io.getstream.photoview.dialog.loader.ImageLoader
 
-internal class BuilderData<T>(
-    val images: List<T>,
-    val imageLoader: ImageLoader<T>
+public class BuilderData<T>(
+  public val images: List<T>,
+  public val imageLoader: ImageLoader<T>
 ) {
-    var backgroundColor = Color.BLACK
-    var startPosition: Int = 0
-    var imageChangeListener: OnImageChangeListener? = null
-    var onDismissListener: OnDismissListener? = null
-    var overlayView: View? = null
-    var imageMarginPixels: Int = 0
-    var containerPaddingPixels = IntArray(4)
-    var shouldStatusBarHide = true
-    var isZoomingAllowed = true
-    var isSwipeToDismissAllowed = true
-    var transitionView: ImageView? = null
+  public var backgroundColor: Int = Color.BLACK
+  public var startPosition: Int = 0
+  public var imageChangeListener: OnImageChangeListener? = null
+  public var onDismissListener: OnDismissListener? = null
+  public var overlayView: View? = null
+  public var imageMarginPixels: Int = 0
+  public var containerPaddingPixels: IntArray = IntArray(4)
+  public var shouldStatusBarHide: Boolean = true
+  public var isZoomingAllowed: Boolean = true
+  public var isSwipeToDismissAllowed: Boolean = true
+  public var transitionView: ImageView? = null
 }
