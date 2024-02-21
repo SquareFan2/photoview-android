@@ -69,6 +69,7 @@ class LauncherActivity : AppCompatActivity() {
           4 -> GlideSampleActivity::class.java
           5 -> ActivityTransitionActivity::class.java
           6 -> ImmersiveActivity::class.java
+          7 -> PhotoViewDialogActivity::class.java
           else -> SimpleSampleActivity::class.java
         }
         val context = holder.itemView.context
@@ -115,6 +116,7 @@ class LauncherActivity : AppCompatActivity() {
       "Glide Sample",
       "Activity Transition Sample",
       "Immersive Sample",
+      "PhotoView Dialog",
     )
   }
 }
