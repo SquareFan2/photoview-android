@@ -15,9 +15,9 @@
 </p><br>
 
 <p align="center">
-<img src="preview/preview0.gif" width="280"/>
-<img src="preview/preview1.gif" width="280"/>
-<img src="preview/preview2.gif" width="262"/>
+<img src="preview/preview0.gif" width="270"/>
+<img src="preview/preview1.gif" width="270"/>
+<img src="preview/preview2.gif" width="252"/>
 </p>
 
 ## Download
