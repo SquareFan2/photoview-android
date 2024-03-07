@@ -12,7 +12,7 @@
   <a href="https://android-arsenal.com/api?level=21"><img alt="API" src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat"/></a>
   <a href="https://github.com/GetStream/photoview-android/actions/workflows/android.yml"><img alt="Build Status" src="https://github.com/GetStream/photoview-android/actions/workflows/android.yml/badge.svg"/></a>
   <a href="https://androidweekly.net/issues/issue-610"><img alt="Android Weekly" src="https://skydoves.github.io/badges/android-weekly.svg"/></a>
-  <a href="https://getstream.io?utm_source=Github&utm_medium=Github_Repo_Content_Ad&utm_content=Developer&utm_campaign=Github_Feb2024_Jaewoong_PhotoView&utm_term=DevRelOss"><img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/HayesGordon/e7f3c4587859c17f3e593fd3ff5b13f4/raw/11d9d9385c9f34374ede25f6471dc743b977a914/badge.json" alt="Stream Feeds"></a>
+  <a href="https://getstream.io?utm_source=Github&utm_medium=Jaewoong_OSS&utm_content=Developer&utm_campaign=Github_Feb2024_Jaewoong_PhotoView&utm_term=DevRelOss"><img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/HayesGordon/e7f3c4587859c17f3e593fd3ff5b13f4/raw/11d9d9385c9f34374ede25f6471dc743b977a914/badge.json" alt="Stream Feeds"></a>
 </p><br>
 
 <p align="center">
@@ -21,12 +21,12 @@
 <img src="preview/preview2.gif" width="252"/>
 </p>
 
-<a href="https://getstream.io/video/docs/android/tutorials/video-calling?utm_source=Github&utm_medium=Github_Repo_Content_Ad&utm_content=Developer&utm_campaign=Github_Feb2024_Jaewoong_PhotoView&utm_term=DevRelOss"><img src="https://user-images.githubusercontent.com/24237865/138428440-b92e5fb7-89f8-41aa-96b1-71a5486c5849.png" align="right" width="13%"/></a>
+<a href="https://getstream.io/video/docs/android/tutorials/video-calling?utm_source=Github&utm_medium=Jaewoong_OSS&utm_content=Developer&utm_campaign=Github_Feb2024_Jaewoong_PhotoView&utm_term=DevRelOss"><img src="https://user-images.githubusercontent.com/24237865/138428440-b92e5fb7-89f8-41aa-96b1-71a5486c5849.png" align="right" width="13%"/></a>
 
 ## Contribution 💙
 
-PhotoView is maintained by __[Stream](https://getstream.io?utm_source=Github&utm_medium=Github_Repo_Content_Ad&utm_content=Developer&utm_campaign=Github_Feb2024_Jaewoong_PhotoView&utm_term=DevRelOss)__.
-If you’re interested in building powerful real-time video/audio calling, audio room, and livestreaming, check out the __[Stream Video SDK for Compose](https://getstream.io/video/docs/android/tutorials/video-calling?utm_source=Github&utm_medium=Github_Repo_Content_Ad&utm_content=Developer&utm_campaign=Github_Feb2024_Jaewoong_PhotoView&utm_term=DevRelOss)__!
+PhotoView is maintained by __[Stream](https://getstream.io?utm_source=Github&utm_medium=Jaewoong_OSS&utm_content=Developer&utm_campaign=Github_Feb2024_Jaewoong_PhotoView&utm_term=DevRelOss)__.
+If you’re interested in building powerful real-time video/audio calling, audio room, and livestreaming, check out the __[Stream Video SDK for Compose](https://getstream.io/video/docs/android/tutorials/video-calling?utm_source=Github&utm_medium=Jaewoong_OSS&utm_content=Developer&utm_campaign=Github_Feb2024_Jaewoong_PhotoView&utm_term=DevRelOss)__!
 Also, anyone can contribute to improving code, docs, or something following our [Contributing Guideline](/CONTRIBUTING.md).
 
 ## Download
