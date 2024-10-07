@@ -841,7 +841,7 @@ internal class PhotoViewAttacher(private val mImageView: ImageView) :
   }
 
   companion object {
-    private const val DEFAULT_MAX_SCALE = 3.0f
+    private const val DEFAULT_MAX_SCALE = 10.0f
     private const val DEFAULT_MID_SCALE = 1.75f
     private const val DEFAULT_MIN_SCALE = 1.0f
     private const val DEFAULT_ZOOM_DURATION = 200
